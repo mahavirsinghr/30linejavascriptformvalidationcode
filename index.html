@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js"> 
+    <head>
+        <meta charset="UTF-8" />
+        <title>Login and Registration Form with HTML5 and CSS3</title>
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		 </head>
+    <body>
+    <script src="mastervalidation.js"></script>
+        <div class="container">
+            <div class="codrops-top">
+                <div class="clr"></div>
+            </div>            
+            <section>				
+                <div id="container_demo" >
+                    <a class="hiddenanchor" id="toregister"></a>
+                    <a class="hiddenanchor" id="tologin"></a>
+                    <div id="wrapper">
+                        <div id="login" class="animate form">
+                            <form  action="mysuperscript.php" onsubmit="return formValidator();"> 
+                                <h1>Log in</h1> 
+                                <p> 
+                                    <label for="Name" class="uname" data-icon="u" >Name *</label>
+                                    <input id="txtName" name="txtName" type="text" placeholder="Please Enter your Name" accesskey="n" tabindex="1"/>
+                                </p>
+                                <p id="ptxtName"> </p>
+                                 <p> 
+                                    <label for="Dob" class="uname" data-icon="u" >DOB *</label>
+                                    <input id="txtDob" name="txtDob" type="text" placeholder="Please Enter Your DOB" accesskey="d" tabindex="2"/>
+                                </p>
+                                <p id="ptxtDob"> </p>
+                                <p> 
+                                    <label for="Phone" class="uname" data-icon="u" >PHONE *</label>
+                                    <input id="txtPhone" name="txtPhone" type="text" placeholder="555555555" accesskey="p" tabindex="3"/>
+                                </p>
+                                <p id="ptxtPhone"> </p>
+                                <p> 
+                                    <label for="Mobile" class="uname" data-icon="u" >Mobile *</label>
+                                    <input id="txtMobile" name="txtMobile" type="text" placeholder="+91-9999999999" accesskey="m" tabindex="4"/>
+                                </p>
+                                <p id="ptxtMobile"> </p>
+                                <p> 
+                                    <label for="AboutMe" class="uname" data-icon="u" >About Me *</label>
+                                    <input id="txtAboutMe" name="txtAboutMe" type="text" placeholder="Please Say Something About Yourself" accesskey="a" tabindex="5"/>
+                                </p>
+                                <p id="ptxtAboutMe"> </p>
+                                                             <p> 
+                                    <label for="Address1" class="uname" data-icon="u" >Address1 *</label>
+                                    <input id="txtAddress1" name="txtAddress1" type="text" placeholder="Please write the address line1" accesskey="1" tabindex="6"/>
+                                </p>
+                                <p id="ptxtAddress1"> </p>
+                                                                         <p> 
+                                    <label for="Address2" class="uname" data-icon="u" >Address2 *</label>
+                                    <input id="txtAddress2" name="txtAddress2" type="text" placeholder="Please write the address line2" accesskey="2" tabindex="7"/>
+                                </p>
+                                <p id="ptxtAddress2"> </p>
+                                                                         <p> 
+                                    <label for="City" class="uname" data-icon="u" >City *</label>
+                                    <input id="txtCity" name="txtCity" type="text" placeholder="Please write the name of the city" accesskey="c" tabindex="8"/>
+                                </p>
+                                <p id="ptxtCity"> </p>
+                               <p> 
+                                    <label for="ZipCode" class="uname" data-icon="u" >ZipCode </label>
+                                    <input id="txtZip" name="txtZip" type="text" placeholder="Please write the Zip Code of Your City" accesskey="z" tabindex="9"/>
+                                </p>
+                                <p id="ptxtZip"> </p>
+                    
+                                <p class="keeplogin"> 
+									<input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+									<label for="loginkeeping">Keep me logged in</label>
+								</p>
+                                <p class="login button"> 
+                                    <input type="submit" value="Login" /> 
+								</p>
+			                 </form>
+                        </div>
+                   </div>
+                </div>  
+            </section>
+        </div>
+    </body>
+</html>
